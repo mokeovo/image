@@ -28,4 +28,4 @@ script:
   - git config user.email "${GIT_EMAIL}"
   - git add .
   - git commit -m "update By garvey"
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" main:main
